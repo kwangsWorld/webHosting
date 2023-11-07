@@ -1,0 +1,74 @@
+.header{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 1.25fr 2.5fr 2.5fr 2.5fr 1.25fr;
+    grid-template-rows: 150px;
+}
+
+#title{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.left-menu{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 1.6fr 1.6fr 1.6fr 1.6fr 1.6fr 1.6fr;
+    grid-template-rows: 30px;
+    cursor: pointer;
+}
+
+.left-menu>div{
+    /* border: 1px solid black; */
+}
+
+.right-first-menu{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 20px;
+    font-size:12px;
+    cursor: pointer;
+}
+
+.right-first-menu>div{
+    /* border: 1px solid black; */
+}
+
+.right-second-menu{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 2.5fr 2.5fr;
+    grid-template-rows:20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.right-second-menu>div{
+    /* border: 1px solid black; */
+}
+
+.body-photo{
+    width: 1400px;
+    height: 400px;
+    cursor: pointer;
+}
+
+tbody{
+    text-align: center;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+}
+
+.detail{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
